@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Experiment outputs
+logs/
+predLog/
+*.log
+*.png
+
+# Checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Data (never commit datasets)
+data/
+*.stl
+*.xlsx
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,17 @@
+# Install torch + torch_geometric wheels matched to your CUDA first:
+#   https://pytorch.org/get-started/locally/
+#   https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+# Then `pip install -r requirements.txt` installs the rest.
+
+torch>=2.3.1
+torch_geometric>=2.6.1
+numpy>=2.0.0
+pandas>=2.3.1
+trimesh>=4.7.3
+einops>=0.8.1
+matplotlib>=3.10.5
+seaborn>=0.13.2
+scipy>=1.16.1
+openpyxl>=3.1.5
+tqdm>=4.67.1
+
