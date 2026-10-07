@@ -106,8 +106,9 @@ class HGPAttenBlock(torch.nn.Module):
                 torch.nn.Linear(in_channels, hidden_dim),
                 torch.nn.LeakyReLU(),
                 torch.nn.Linear(hidden_dim, hidden_dim),
-                torch.nn.LeakyReLU()
-            )
+                torch.nn.LeakyReLU(),
+            ),
+            train_eps=True,
         )
         # custom information score & pooling
         self.in_channels = in_channels

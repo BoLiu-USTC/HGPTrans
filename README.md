@@ -109,14 +109,17 @@ and an error-scatter plot is saved to `predLog/error.png`.
 
 ## Citation
 
-If you use this code, please cite:
+The accompanying paper is available on [arXiv:2609.31765](https://arxiv.org/abs/2609.31765).
+
+If you use this code or method, please cite:
 
 ```bibtex
 @article{liu2026hgptrans,
-  title  = {HGPTrans: Hierarchical Graph-Pooling Transolver for Automotive Aerodynamic Drag Prediction},
-  author = {Bo Liu and others},
-  journal= {<Journal>},
-  year   = {2026}
+  title        = {HGPTrans: Hierarchical Graph-Pooling Transolver for Automotive Aerodynamic Drag Coefficient Prediction},
+  author       = {Liu, Bo and Zhang, Fengli and Luo, Qiuli and Nie, Lianrui and Wang, Wenjiang},
+  journal      = {arXiv preprint arXiv:2609.31765},
+  year         = {2026},
+  url          = {https://arxiv.org/abs/2609.31765}
 }
 ```
 
